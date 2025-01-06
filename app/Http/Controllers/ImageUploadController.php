@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use TesseractOCR;
+
+use thiagoalessio\TesseractOCR\TesseractOCR;
+
 
 class ImageUploadController extends Controller
 {
